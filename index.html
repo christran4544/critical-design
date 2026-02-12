@@ -1,19 +1,58 @@
-<html>
-  <head>
-    <title>Hello, World!</title>
-    <p>Selections from CWD Index</p>
-  </head>
-  <body>
-    <h1>Hello, World</h1>
-    <h2> My name is Christopher Tran, and I like pizza. I also really enjoy design. </h2></p>
+/* 👉 3.2 */
 
-    <a href="https://anatomyof.ai">anatomyof.ai </a> <br>
-    <p> Thought this was super cool, I am very interested in AI so this seems valuable to me!</p>
+body {
+  background-color: #e6ce55;
+  font-family: Helvetica, Arial, sans-serif;
+}
 
-    <a href="https://smashthewalls.com/">smash the walls </a> <br>
-    <p> This was a fun site, I like how it shows elements of motion design. </p>
+.backgroundImage {
+  background-image: url(../img/wrench.png);
+  width: 400px;
+  height: 400px;
+  margin: 64px auto;
+}
 
-    <a href="https://www.guessthepin.com/">guess the pin </a> <br>
-    <p> Another cool site that is definitely a lot more simple, but I'm sure this is a valuable project or something similiar to learn how to code. </p>
-  </body>
-</html>
+.backgroundImage:hover {
+  background-image: url(../img/clock.png);
+  cursor: crosshair;
+}
+
+.text {
+  width: 50%;
+  margin: 96px auto;
+}
+
+h1 {
+  color: black;
+  font-size: 48px;
+  text-align: center;
+}
+
+.text * {
+  display: inline-block;
+  width: 48%;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+h2 {
+  color: dodgerblue;
+  font-size: 40px;
+  text-align: left;
+}
+
+h3 {
+  font-size: 16px;
+  text-align: right;
+}
+
+h3 a:link,
+h3 a:visited {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+h3 a:hover {
+  color: white;
+}
